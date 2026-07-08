@@ -1,0 +1,12 @@
+# weights / local caches (never commit)
+*.safetensors
+*.bin
+*.pt
+*.gguf
+/data/
+*.log
+.DS_Store
+__pycache__/
+.venv/
+.env
+*.token
