@@ -1,5 +1,9 @@
 # GLM-5.2 Fast Serve Recipe
 
+<p align="center">
+  <img src="glm.png" alt="GLM-5.2 TP4 + MTP + Marlin — 100+ tok/s" width="900" />
+</p>
+
 Shareable **vLLM + b12x** recipe for high single-stream decode on multi-GPU Blackwell.
 
 Validated on a 6× RTX PRO 6000 (96 GB) box: single-stream decode from ~**39 tok/s → ~100–122 tok/s** while keeping a stable OpenAI-compatible `/v1` API.
